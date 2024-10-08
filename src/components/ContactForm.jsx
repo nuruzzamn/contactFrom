@@ -20,9 +20,9 @@ export const ContactForm = () => {
     setIsOpen(true);
   };
 
-  function close() {
+  const close = () => {
     setIsOpen(false);
-  }
+  };
   return (
     <>
       <form
